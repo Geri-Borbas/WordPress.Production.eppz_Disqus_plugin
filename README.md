@@ -1,4 +1,4 @@
-Meet **eppz! Disqus exporter****, a simple plugin that post process a
+Meet **eppz! Disqus exporter**, a simple plugin that post process a
 WordPress export file to include avatars for Disqus import. Works only
 if SSO is enabled in your Disqus account.
 
