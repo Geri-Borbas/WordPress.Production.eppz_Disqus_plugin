@@ -129,7 +129,7 @@ class EPPZ_Disqus_Plugin
 
         // Unique user ID (the id of the implied Disqus SSO user).
         $emailHash = md5(strtolower(trim($comment->comment_author_email)));
-        $userID = 'eppz_blog_imported_user_'.$emailHash;
+        $userID = 'migrated_user_'.$emailHash;
         $avatar = 'http://www.gravatar.com/avatar/'.$emailHash;
         $remote->addChild('dsq:id', $userID, DISQUS_NAMESPACE);
         $remote->addChild('dsq:avatar', htmlspecialchars($avatar), DISQUS_NAMESPACE);
